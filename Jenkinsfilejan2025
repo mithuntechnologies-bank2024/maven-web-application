@@ -1,7 +1,7 @@
 node{
 def mavenHome = tool name: 'maven3.9.9'			//#mavenHome=/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven3.9.9
 
-echo "The buid name is: ${env.BUILD_NAME}"
+echo "The buid name is: ${env.BUILD_NUMBER}"
 echo "The Job name is: ${env.JOB_NAME}"
 echo "The Node name is: ${env.NODE_NAME}"
 echo "The Workspace name is: ${env.WORKSPACE}"
